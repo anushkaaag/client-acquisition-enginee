@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "getleads": {
+      "type": "http",
+      "url": "https://app.getleads.io/api/mcp",
+      "headers": {
+        "Authorization": "Bearer PASTE_YOUR_GETLEADS_KEY_HERE"
+      }
+    },
+    "salesrobot": {
+      "command": "npx",
+      "args": ["-y", "salesrobot-cli"],
+      "env": {
+        "SR_API_KEY": "PASTE_YOUR_SALESROBOT_KEY_HERE"
+      }
+    }
+  }
+}

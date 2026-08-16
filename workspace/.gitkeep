@@ -1,0 +1,5 @@
+This folder is where the agent keeps state as it runs: your ICP brief, the pulled
+list, the qualified queue, the sequences, campaign UUIDs, and weekly reports.
+
+It is gitignored on purpose. Everything in here is your live data, not part of the
+shipped playbook.

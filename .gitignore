@@ -1,0 +1,13 @@
+# your live keys — never commit these
+.mcp.json
+
+# your live campaign data — yours, not part of the playbook
+workspace/*
+!workspace/.gitkeep
+
+# os / editor noise
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
